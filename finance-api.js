@@ -41,7 +41,6 @@ function displaySearchData(data) {
 	//		${data.companyProfile}
     //</div>
   //`);
-   // nextToken=`${YOUTUBE_SEARCH_URL}?key=AIzaSyBk_OjFoaTqmKgDpGuz1svo-a7OrwKsgV4&pageToken=${data.nextPageToken}`
   // $('.js-search-results').append();
 }
 
