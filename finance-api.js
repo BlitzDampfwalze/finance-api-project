@@ -31,7 +31,7 @@ function renderResult(result) {
   `;
 }
 
-function displayYouTubeSearchData(data) {
+function displaySearchData(data) {
   //const results = data.items.map((item, index) => renderResult(item));
   // const stats = `5 of ${data.pageInfo.totalResults} results shown`;
   // $('.js-search-results-stats').html(stats); 
@@ -53,7 +53,7 @@ function watchSubmit() {
     // clear out the input
     queryTarget.val("");
         console.log(query)
-    getDataFromApi(query, displayYouTubeSearchData);
+    getDataFromApi(query, displaySearchData);
   });
 }
 
